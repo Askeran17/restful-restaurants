@@ -62,6 +62,7 @@ router.get("/:id", (req, res) => {
   // Find restaurant by restaurantId
   const restaurant = ALL_RESTAURANTS.find((r) => r.id === starredRestaurant.restaurantId);
   if (!restaurant) {
+  saveStarredRestaurants(STARRED_RESTAURANTS);
     return res.sendStatus(404);
   }
   // Return object with id, comment and name

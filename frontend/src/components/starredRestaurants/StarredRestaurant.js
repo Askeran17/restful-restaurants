@@ -27,9 +27,15 @@ const StarredRestaurant = ({
         ) : (
           <p>{comment}</p>
         )}
-      <button className='edit-btn'
+      <button
+        className='edit-btn'
         onClick={() => {
-          setIsEditing((previousState) => !previousState)
+          if (isEditing) {
+            setComment(restaurant.comment);
+            setIsEditing(false);
+          } else {
+            setIsEditing(true);
+          }
         }}
       >
         {isEditing ? "Cancel Edit" : "Edit Comment"}

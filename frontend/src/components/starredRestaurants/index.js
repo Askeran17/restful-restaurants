@@ -46,9 +46,11 @@ const StarredRestaurants = () => {
       return;
     }
 
+    // Get updated list of starred restaurants
+    const updatedList = await getStarredRestaurants();
     dispatch({
-      type: "UPDATE_STARRED_RESTAURANT_COMMENT",
-      payload: { id, newComment },
+      type: "LOADED_STARRED_RESTAURANTS",
+      payload: updatedList,
     });
   };
 

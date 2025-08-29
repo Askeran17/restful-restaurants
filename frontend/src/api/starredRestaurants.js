@@ -35,11 +35,12 @@ export const updateComment = async (id, newComment) => {
   const response = await fetch(`${BASE_API_ROUTE}/${id}`, {
     method: "PUT",
     body: JSON.stringify({
-      newComment,
+      comment: newComment,
     }),
     headers: {
       "Content-Type": "application/json",
     },
+    cache: "no-store",
   });
 
   return response.status;

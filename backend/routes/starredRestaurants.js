@@ -50,7 +50,7 @@ router.get("/", (req, res) => {
 });
 
 /**
- * Feature 7: Getting a specific starred restaurant.
+ * Feature 73: Getting a specific starred restaurant.
  */
 router.get("/:id", (req, res) => {
   const { id } = req.params;

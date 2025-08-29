@@ -2,6 +2,8 @@
 
 A full-stack demo project for managing a list of restaurants and starred (favorite) restaurants, built with Node.js (Express) backend and React frontend.
 
+![Main List](/image-readme/main-list.png)
+
 ## Features
 
 ### Backend (Node.js + Express)

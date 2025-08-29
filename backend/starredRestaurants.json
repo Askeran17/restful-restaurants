@@ -1,0 +1,17 @@
+[
+  {
+    "id": "a7272cd9-26fb-44b5-8d53-9781f55175a1",
+    "restaurantId": "869c848c-7a58-4ed6-ab88-72ee2e8e677c",
+    "comment": "Best pho in NYC"
+  },
+  {
+    "id": "8df59b21-2152-4f9b-9200-95c19aa88226",
+    "restaurantId": "e8036613-4b72-46f6-ab5e-edd2fc7c4fe4",
+    "comment": "Their lunch special is the best!"
+  },
+  {
+    "id": "da3dc682-8957-462d-ad56-c88f845a95df",
+    "restaurantId": "2afde3b4-e905-46b5-9320-c96d91d317ee",
+    "comment": ""
+  }
+]
